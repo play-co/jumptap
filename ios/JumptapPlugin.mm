@@ -2,7 +2,7 @@
 #import "JSONKit.h"
 
 
-@implementation JumpTapPlugin
+@implementation JumptapPlugin
 
 // The plugin must call super dealloc.
 - (void) dealloc {
@@ -32,18 +32,18 @@
 - (void) initializeWithManifest:(NSDictionary *)manifest appDelegate:(TeaLeafAppDelegate *)appDelegate {
 	@try {
 		NSDictionary *ios = [manifest valueForKey:@"ios"];
-		NSString *jumpTapPublisherId = [ios valueForKey:@"jumpTapPublisherId"];
+		NSString *jumptapPublisherId = [ios valueForKey:@"jumptapPublisherId"];
 
-		self.publisherId = jumpTapPublisherId;
+		self.publisherId = jumptapPublisherId;
 
 		self.widget = [[[JTAdWidget alloc] initWithDelegate:self shouldStartLoading:YES] autorelease];
 
 		[JTAdWidget initializeAdService:FALSE];
 
-		NSLog(@"{jumpTap} Initialized with manifest jumpTapPublisherId: '%@'", jumpTapPublisherId);
+		NSLog(@"{jumptap} Initialized with manifest jumptapPublisherId: '%@'", jumptapPublisherId);
 	}
 	@catch (NSException *exception) {
-		NSLog(@"{jumpTap} Failure to get jumpTapPublisherId key from manifest file: %@", exception);
+		NSLog(@"{jumptap} Failure to get jumptapPublisherId key from manifest file: %@", exception);
 	}
 }
 
