@@ -1,0 +1,17 @@
+{
+	"code": [
+		"JTAdWidget.h",
+		"JumptapPlugin.h",
+		"JumptapPlugin.mm"
+	],
+	"frameworks": [
+		"AdSupport",
+		"CoreTelephony",
+		"Security",
+		"CoreLocation",
+		"MediaPlayer",
+		"jtUniversalLibNoUDID.a",
+		"libz.1.2.5.dylib",
+		"libsqlite3.dylib"
+	]
+}
