@@ -1,0 +1,7 @@
+{
+    "copyFiles": ["JumptapPlugin.java"],
+    "libraries": [],
+    "jars": ["JtAdTag-2.5.0.0-120327.jar"],
+    "injectionXML": "manifest.xml",
+	"injectionXSL": "manifest.xsl"
+}

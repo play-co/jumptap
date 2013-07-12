@@ -1,0 +1,8 @@
+<!--START_PLUGINS_MANIFEST-->
+	<!--Jumptap-->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<!--END_PLUGINS_MANIFEST-->
+<!--START_PLUGINS_APPLICATION-->
+	<!--Jumptap-->
+	<meta-data android:name="JUMPTAP_PUBLISHER_ID" android:value="" />
+<!--END_PLUGINS_APPLICATION-->
