@@ -14,7 +14,7 @@ Include it in the `manifest.json` file under the "addons" section for your game:
 ],
 ~~~
 
-To specify your game's Tracking ID, edit the `manifest.json "android" and "ios" sections as shown below:
+To specify your game's PublisherId, edit the `manifest.json "android" and "ios" sections as shown below:
 
 ~~~
 	"android": {
